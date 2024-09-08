@@ -5,3 +5,4 @@ resource "aws_route53_record" "rc1" {
   name    = "resume.naomim.com"
   records = [aws_lightsail_instance.server1.public_ip_address]
 }
+
